@@ -1,0 +1,13 @@
+server:
+  port: 8101
+  servlet:
+    encoding:
+      charset: UTF-8
+spring:
+  application:
+    #应用的名称，可选
+    name: reggie_take_out
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
